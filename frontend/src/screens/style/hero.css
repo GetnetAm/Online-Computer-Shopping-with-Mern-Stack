@@ -1,0 +1,153 @@
+/* .container{
+    width: 100%;
+  
+} */
+
+.home_img {
+  width: 100%;
+  height: 57vh;
+  background: gold;
+  display: flex;
+}
+.home_img .cover_one {
+  width: 270px;
+  height: 47vh;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.home_img .cover_three {
+  width: 340px;
+  height: 47vh;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+
+.home_img img {
+  align-items: center;
+  height: 55vh;
+  width: 850px;
+}
+
+.body_title {
+  text-align: center;
+  background: dodgerblue;
+  border: 5px solid red;
+  border-radius: 20px 400px;
+  width: 600px;
+  align-items: center;
+  margin-left: 30%;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.body_title h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.shopping_part {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.comp_img {
+  width: 300px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.comp_img img {
+  width: 100%;
+  height: 150px;
+}
+.comp_img h5 {
+  font-size: 20px;
+}
+.comp_img p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.shopping_btn {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #f0c040;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.laptop_shop {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 35px;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: 5px;
+  }
+  .home_img {
+    width: 100%;
+    height: 46vh;
+   
+  }
+  
+  .home_img .cover_one {
+    width: 100%;
+    height: 35vh;
+  }
+  .home_img .cover_three {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .home_img img {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .body_title {
+    margin-left: 5px;
+    width: 500px;
+  }
+  .body_title h3 {
+    font-size: 18px;
+  }
+
+  .comp_img{
+    width: 200px;
+    margin-left: 2px;
+  }
+  .comp_img img {
+    width: 100%;
+    height: 130px;
+  }
+  .comp_img h5 {
+    font-size: 17px;
+  }
+  .comp_img p {
+    font-size: 15px;
+  }
+  
+  .laptop_shop {
+    margin-left: 3px;
+   display: grid;
+   grid-template-columns: 0.1fr 1fr;
+  }
+}
